@@ -1,0 +1,17 @@
+.top{
+    grid-area:top;
+  }
+
+
+
+.intro{
+        grid-area: intro;
+  }
+.item{  border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px;
+  }
+
+.bottom{
+        grid-area:foot;  
+   }

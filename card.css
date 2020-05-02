@@ -1,0 +1,31 @@
+  .card {
+    display: flex;
+    flex-direction: row;
+    grid-area: card;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: lightgrey;
+    transition: 0.3s;
+    border: 1px solid black;
+    max-width: 400px;
+    max-height: fit-content;
+    margin: 15 px;
+    border-radius: 5px ;
+  }
+  .card img{
+    
+    border-radius: 50%;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .contain-card {
+    padding: 2px 16px;
+  }
+  .share{ margin: 5px;}
+  .share img {
+    grid-area: share;
+    max-width: 30px;
+    max-height: 30px;
+  }

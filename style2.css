@@ -1,0 +1,78 @@
+
+
+@import url("navbar.css");
+@import url("card.css");
+@import url("extra.css");
+@import url("container.css");
+@import url("areas.css");
+
+
+
+
+
+
+     
+
+   
+      @media (max-width: 999px) {
+        .gridContainer  {
+            grid-template-columns: 1fr;
+          grid-template-areas: 
+            
+            "1 "
+            "2 " 
+            "3 " 
+            ;
+        }
+        .container  {
+            grid-template-areas:
+            "top    top   top"
+            "navbar  navbar   navbar"
+            "intro intro intro"
+            "cont cont cont"
+            "foot foot foot";
+        }
+      }
+    
+    
+    
+    
+   
+    
+
+    
+
+    @media (max-width: 800px) {
+      .post-container {
+        display: grid;
+        grid-gap: 1rem;
+         grid-template-columns: 
+         1fr  1fr ;
+        grid-template-areas:
+          
+          "top    top   "
+          "navbar navbar"
+          "shaw shaw"
+          "share share"
+          "card card"
+          "foot foot ";
+
+    margin: 0 auto;
+    }
+  }
+
+    @media  only screen and (max-width: 400px) {
+      .navbar {
+      
+        display: flex;
+        flex-direction: column;
+      }
+      .card {
+      display: flex;
+      flex-direction: column;
+      
+      }
+      .card img{
+      
+      border-radius: 50%;}
+    }

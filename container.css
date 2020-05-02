@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 
+         1fr  1fr 200px;
+     
+    grid-template-areas:
+          
+        "top    top   top"
+        "navbar  navbar   navbar"
+        "cont cont intro"
+        "cont cont intro"
+        "foot foot foot";
+
+    
+    margin: 0 auto;
+  }
+
+
+.gridContainer{
+    display:grid;
+    grid-area: cont;
+    grid-gap: 10px ;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+
+    grid-template-areas:
+      "item item  " 
+      "item item  " 
+      "item item"  ;
+  }
+
+.post-container {
+    display: grid;
+    grid-gap: 1rem;
+     grid-template-columns: 
+     1fr  1fr ;
+    grid-template-areas:
+      
+      "top    top   "
+      "navbar navbar"
+      "shaw shaw"
+      "share card"
+      "foot foot ";
+    margin: 0 auto;
+  }
