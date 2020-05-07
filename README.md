@@ -1,3 +1,3 @@
 # udaBlog
 udacity homework
- main page is index2
+ main page is index
